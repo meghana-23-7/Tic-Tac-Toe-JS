@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+h1{
+    font-size: 9vmin;
+    color:ghostwhite;
+    padding: 2vh 0 0 0;
+}
+h3{
+    margin: 8vmin;
+    color: ghostwhite;
+    font-size: 5vmin;
+    padding: 1vmin;
+}
+body{
+    /*background-color: #548697; */
+    background-color: #548637;
+    /*background-color: #CBAACB;*/
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    display: flex;
+    flex-wrap: wrap; /*to send objects to next line when there isn't enough space in present line*/
+    justify-content: center; /*the 2 lines r to bring content to center of its parent element*/
+    align-items: center;
+    height: 60vmin;
+    width: 60vmin;
+    gap: 2vmin;
+    margin: 2vmin;
+}
+.box{
+    background-color: #ffffc7;
+    font-size: 7vmin;
+    color: #b2413e;
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+}
+
+#resetbtn{
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #1e3d12;
+    color: #fff;
+    border-radius: 2rem;
+    margin: 1vmin;
+    border: none;
+}
+
+#newGame{
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #1e3d12;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+}
+.gameStart{
+    margin: 2vmin;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #1e3d12;
+    color: #fff;
+    border-radius: 2rem;
+    border: none;
+}
+.msg-con{
+   height: 95vmin;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+#msg{
+    color: gold;
+    font-size: 15vmin;
+}
+
+.hide{
+    display: none;
+}
